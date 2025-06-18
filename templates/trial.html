@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Underweight BMI Advice</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f2f8fc;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 15px;
+        }
+
+        h1 {
+            color: #0a74da;
+            text-align: center;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            color: #0f4c81;
+            margin-bottom: 10px;
+        }
+
+        .chart {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .chart img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .calories, .recommendations, .activity {
+            background: #e9f5ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .recommendations ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .recommendations li {
+            margin: 8px 0;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #d9534f;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>BMI Health Advice: Underweight</h1>
+
+    <div class="section chart">
+        <h2>Your BMI Category</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Body_mass_index_chart-en.svg/500px-Body_mass_index_chart-en.svg.png" alt="BMI Pie Chart">
+        <p class="highlight">Status: Underweight</p>
+    </div>
+
+    <div class="section calories">
+        <h2>Current Calorie Intake</h2>
+        <p>You are currently consuming <strong>2000 calories</strong> per day.</p>
+    </div>
+
+    <div class="section recommendations">
+        <h2>Recommended Calorie Intake for Weight Gain</h2>
+        <ul>
+            <li><span class="highlight">Rapid Gain:</span> 2800 calories/day</li>
+            <li><span class="highlight">Moderate Gain:</span> 2600 calories/day</li>
+            <li><span class="highlight">Slow Gain:</span> 2400 calories/day</li>
+        </ul>
+    </div>
+
+    <div class="section activity">
+        <h2>Activity Level</h2>
+        <p>You are classified as <span class="highlight">Highly Active</span>. Make sure to match your calorie intake to support your active lifestyle while gaining weight healthily.</p>
+    </div>
+
+    <footer>
+        &copy; 2025 HealthyLife Tracker. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>

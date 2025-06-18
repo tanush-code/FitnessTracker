@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block Title%} {% endblock %}</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<div class="container">
+<body>
+    <h1 class="Header">Welcome to GETFIT {{name}}{%block Name%}{%endblock%}</h1>
+    <h2 class="Header2">{%block Tag1%} {%endblock%}</h2>
+    <h3>{%block BMI%} {%endblock%}</h3>
+    <p class="Header3">Status :{%block Status%} {%endblock%}</p>
+    <h2 class = "Header">{%block MainHead%} {%endblock%}</h2>
+    <div class="Class3">
+    <h2 class="Class1">{%block Heading1 %} {% endblock %}</h2>
+    <p>{%block para1%} {%endblock%}</p>
+    </div>
+    <div class="Class3">
+        <h2 class="Class1">{%block Heading2%} {% endblock %}</h2>
+        <p>{%block para21%} {%endblock%}</p>
+        <p>{%block para22%} {%endblock%}</p>
+        <p>{%block para23%} {%endblock%}</p>
+
+    </div>
+    <div class="Class3">
+        <h2 class="Class1">{%block Heading3%} {% endblock%}</h2>
+        <p>{%block para3%} {%endblock%}</p>
+
+    </div>
+</body>
+</div>
+</html>

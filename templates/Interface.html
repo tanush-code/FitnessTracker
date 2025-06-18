@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GETFIT</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Welcome to GetFiT </h1>
+    <h2>Please enter the  neccessary information </h2>
+    <form action="/sumbit" method="POST">
+    <div class = "input-row">
+        <label for="Name" class="Heading3">Name</label>
+        <input type="text" name="name" placeholder="Enter Name">
+    </div>
+    <div class="input-row">
+        <label for="Height" class = "Heading3">Height(in meters)</label>
+        <input type="number" name="height" placeholder="Enter Height">
+    </div>
+    <div class="input-row">
+        <label for="Weight" class = "Heading3">Weight(in Kg)</label>
+        <input type="number" name="weight" placeholder="Enter Weight">
+    </div>
+    <div class="input-row">
+        <label for="Age" class = "Heading3">Age</label>
+        <input type="age" name="age" placeholder="Enter Age">
+    </div>
+    <div class="input-row">
+        <label for="Gender" class = "Heading3">Enter Your Gender</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    <div class="input-row">
+        <label for="Activity Level" class = "Heading3">Enter Your Activity Level</label>
+        <select name="activity_level" id="activity_level">
+            <option value="sedentary">sedentary</option>
+            <option value="lightly_active">lightly_active</option>
+            <option value="moderately_active">moderately_active</option>
+            <option value="very_active">very_active</option>
+            <option value="super_active">super_active</option>
+        </select>
+    </div>
+    <button type="submit">Sumbit</button>
+    </form>
+</body>
+</html>

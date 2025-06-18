@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{%block Title%}
+Personalised data
+{%endblock%}
+
+    {%block Tag1%} "BMI Health Advice: Fine" {%endblock%}
+    {%block Heading1 %} Current Calorie Intake{% endblock %}
+    {%block Status%} Fine {%endblock%}
+    {%block para1%} Your current calorie intake is <span class="Highlight">{{calorie}}</span>{%endblock%}
+    <p class="Class2"> Your Current BMI is - <span class="Highlight"> {{bmi}}</span> </p> -->
+    <div class="Class3">
+    {%block Heading2%}Recommended Calorie Intake {%endblock%}
+    {%block para21%} <span class="Highlight">Gain</span>: {{calorie+500}}/day{%endblock%}
+    {%block para22%} <span class="Highlight">Keep Weight Stable</span>: {{calorie}}/day {%endblock%}
+    {%block para23%} <span class="Highlight">Loose</span>: {{calorie-500}}{%endblock%}
+    </div>
+    <div class="Class3">
+    {%block Heading3%}Activity Level{%endblock%}
+    {%block para3%}You are classified as  <span class="Highlight">{{activity_level}}</span>. Make sure to match 
+    your calorie intake to support your active lifestyle while 
+    gaining weight healthily. {%endblock%}
+    </div>
